@@ -1,0 +1,101 @@
+body{
+    height: 2000px;
+    padding-top: 156px;
+}
+/* header */
+header{
+    background-color: lightgrey;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+.logo{
+    display: inline-block;
+}
+.nav{
+    display: inline-block;
+    margin-left: 100px;
+}
+.nav-li{
+    display: inline-block;
+    margin-right: 20px;
+}
+/* section */
+.section-text{
+    width: 300px;
+    background-color: aqua;
+}
+
+/* section-2 */
+.section-2{
+    margin-top: 20px;
+}
+.box-wraper{
+    width: 400px;
+    height: 400px;
+    background-color: green;
+    position: relative;
+    z-index: 10;
+}
+.box-1{
+    width: 150px;
+    height: 150px;
+    background-color: yellowgreen;
+    position: absolute;
+    right: 30px;
+    bottom: 50px;
+}
+.box-2{
+    width: 150px;
+    height: 150px;
+    background-color: black;
+    position: absolute;
+    bottom: 80px;
+    right: 150px;
+}
+.box-3{
+    width:150px;
+    height: 150px;
+    background-color: brown;
+    position: absolute;
+    top:50px;
+    right: 200px;
+}
+/* section-3 */
+.blue-box{
+    width:400px;
+    height: 400px;
+    background-color:blue;
+    position: relative;
+}
+.yellow-box{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50px,-50px);
+}
+/* section-4 */
+.p-text{
+    position: absolute;
+    top:50px;
+    right: 100px;
+}
+.image-wraper{
+    position:relative;
+    width: 612px;
+}
+/* section-5 */
+.icone{
+    width: 60px;
+}
+.icone-wraper{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}
